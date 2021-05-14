@@ -1,0 +1,106 @@
+/* GENERAL */
+
+body{
+  background: rgb(245,245,245);
+  color: #000000;
+  font-family: 'Montserrat', Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* BANNER */
+
+header {
+  text-align: center;
+/*  background-image: url("https://source.unsplash.com/GXOaJKjtRks/1600x900");*/
+  background-image: url("https://source.unsplash.com/PaEiKmY697Y/1600x900");
+  background-size: cover;
+  background-position: center center;
+  padding: 150px;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+
+}
+
+header h1 {
+  font-size: 40px;
+}
+
+header p {
+  font-size: 20px;
+}
+
+/* ARTICLES */
+
+#articles {
+  width: 50%;
+  margin: 50px auto;
+  padding-top: 20px;
+}
+
+.article {
+  padding-bottom: 40px;
+}
+
+#articles .article h2 {
+  color: #AFB094;
+  font-weight: 300;
+  font-size: 30px;
+}
+
+#articles .article p {
+  color: #3E3E21;
+  line-height: 1.6;
+  padding-top: 15px;
+  font-size: 20px;
+}
+
+#articles .article a {
+  text-decoration: none;
+  font-style: italic;
+  font-size: 25px;
+  color: #3E3E21;
+  background: linear-gradient(#eceef0, #A1A287);
+}
+
+#articles .article a:hover {
+  background: linear-gradient(#F5F5F5, #776F67);
+}
+
+/* MEDIA QUERIES */
+
+
+@media(max-width: 541px) and (min-width: 320px) /* iPhone & other */ {
+
+  header {
+    height: 50vh;
+    padding: 20px;
+  }
+
+  header #banner {
+    margin-top: 100px;
+  }
+
+  header h1 {
+  font-size: 20px;
+}
+
+header p {
+  font-size: 10px;
+}
+
+  #articles {
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+
+  }
+
+
